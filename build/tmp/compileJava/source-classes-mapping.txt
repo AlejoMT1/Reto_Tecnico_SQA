@@ -2,13 +2,13 @@ co/sqasa/utils/Constantes.java
  co.sqasa.utils.Constantes
 co/sqasa/questions/ValidarNombreProducto.java
  co.sqasa.questions.ValidarNombreProducto
-co/sqasa/utils/Funciones.java
- co.sqasa.utils.Funciones
 co/sqasa/questions/ExtraerValor.java
  co.sqasa.questions.ExtraerValor
-co/sqasa/exeptions/ProductoNoEncontradoException.java
- co.sqasa.exeptions.ProductoNoEncontradoException
-co/sqasa/userinterfaces/InicioUI.java
- co.sqasa.userinterfaces.InicioUI
 co/sqasa/tasks/SeleccionarFecha.java
  co.sqasa.tasks.SeleccionarFecha
+co/sqasa/utils/Funciones.java
+ co.sqasa.utils.Funciones
+co/sqasa/userinterfaces/InicioUI.java
+ co.sqasa.userinterfaces.InicioUI
+co/sqasa/exeptions/ProductoNoEncontradoException.java
+ co.sqasa.exeptions.ProductoNoEncontradoException

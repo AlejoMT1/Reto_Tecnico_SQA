@@ -13,3 +13,4 @@ Característica:  Automatizar Selección de una fecha en jqueryui
     Ejemplos:
       | fecha      |
       | 08/04/2025 |
+      | 08/05/2025 |

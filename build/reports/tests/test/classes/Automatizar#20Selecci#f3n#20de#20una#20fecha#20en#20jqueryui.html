@@ -23,13 +23,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">8.096s</div>
+<div class="counter">17.764s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,29 +61,13 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
-</li>
-<li>
-<a href="#tab2">Standard error</a>
+<a href="#tab1">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="Seleccionar una fecha valida"></a>
-<h3 class="failures">Seleccionar una fecha valida</h3>
-<span class="code">
-<pre>io.cucumber.java.PendingException: TODO: implement me
-	at co.sqasa.StepDef.TestStepDefinition.visualizareEnLaSeleccion(TestStepDefinition.java:37)
-	at ✽.Visualizare '08/04/2025' en la seleccion(file:///C:/Users/ALEJANDROMONTOYAOSOR/Documents/Reto%20Tecnico/Reto_Tecnico_SQA/src/test/resources/features/tes.feature:11)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -94,13 +78,18 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">Seleccionar una fecha valida</td>
-<td class="failures">8.096s</td>
-<td class="failures">failed</td>
+<td class="success">Seleccionar una fecha valida #1</td>
+<td class="success">10.309s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Seleccionar una fecha valida #2</td>
+<td class="success">7.455s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard error</h2>
 <span class="code">
 <pre>[Test worker] INFO  - 
@@ -115,22 +104,42 @@ Seleccionar una fecha valida(automatizar-selección-de-una-fecha-en-jqueryui;sel
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ALEJANDROMONTOYAOSOR\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*, --start-maximized --disable...], extensions: []}}
-Starting ChromeDriver 134.0.6998.165 (fd886e2cb29dd984c13deec032832dee68d8abe3-refs/branch-heads/6998@{#2122}) on port 33571
+Starting ChromeDriver 134.0.6998.165 (fd886e2cb29dd984c13deec032832dee68d8abe3-refs/branch-heads/6998@{#2122}) on port 24369
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 33571.
-abr. 07, 2025 11:03:55 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ChromeDriver was started successfully on port 24369.
+abr. 07, 2025 11:36:51 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-abr. 07, 2025 11:03:55 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+abr. 07, 2025 11:36:51 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.9.0` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO  - 
-  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
- |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
-   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
-   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
 Seleccionar una fecha valida
------------------------------------------------------------------------------
+----------------------------------------------------------------------
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.165 (resolved driver for Chrome 134)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ALEJANDROMONTOYAOSOR\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*, --start-maximized --disable...], extensions: []}}
+Starting ChromeDriver 134.0.6998.165 (fd886e2cb29dd984c13deec032832dee68d8abe3-refs/branch-heads/6998@{#2122}) on port 2201
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 2201.
+abr. 07, 2025 11:37:00 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+abr. 07, 2025 11:37:00 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.9.0` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Seleccionar una fecha valida
+----------------------------------------------------------------------
 </pre>
 </span>
 </div>
@@ -142,7 +151,7 @@ Seleccionar una fecha valida
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8</a> at 7/04/2025, 11:04:02 p. m.</p>
+<a href="http://www.gradle.org">Gradle 6.8</a> at 7/04/2025, 11:37:12 p. m.</p>
 </div>
 </div>
 </body>

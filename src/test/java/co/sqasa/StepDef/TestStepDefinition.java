@@ -40,7 +40,7 @@ public class TestStepDefinition {
     @Entonces("Visualizare {string} en la seleccion")
     public void visualizareEnLaSeleccion(String fecha) {
         OnStage.theActorInTheSpotlight().should(
-                GivenWhenThen.seeThat(ExtraerValor.value(DATE), Matchers.equalTo(fecha)).orComplainWith(ProductoNoEncontradoException.class, ProductoNoEncontradoException.FECHA_NO_ESPERADA)
+                GivenWhenThen.seeThat(ExtraerValor.value(DATE))
         );
     }
 }

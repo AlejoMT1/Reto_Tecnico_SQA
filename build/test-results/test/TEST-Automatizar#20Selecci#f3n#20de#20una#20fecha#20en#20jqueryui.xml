@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Automatizar Selección de una fecha en jqueryui" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-04-08T04:03:51" hostname="SQAMED-SQA-5192" time="8.096">
+<testsuite name="Automatizar Selección de una fecha en jqueryui" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-04-08T04:36:47" hostname="SQAMED-SQA-5192" time="17.765">
   <properties/>
-  <testcase name="Seleccionar una fecha valida" classname="Automatizar Selección de una fecha en jqueryui" time="8.096">
-    <failure message="io.cucumber.java.PendingException: TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
-	at co.sqasa.StepDef.TestStepDefinition.visualizareEnLaSeleccion(TestStepDefinition.java:37)
-	at ✽.Visualizare '08/04/2025' en la seleccion(file:///C:/Users/ALEJANDROMONTOYAOSOR/Documents/Reto%20Tecnico/Reto_Tecnico_SQA/src/test/resources/features/tes.feature:11)
-</failure>
-  </testcase>
+  <testcase name="Seleccionar una fecha valida #1" classname="Automatizar Selección de una fecha en jqueryui" time="10.309"/>
+  <testcase name="Seleccionar una fecha valida #2" classname="Automatizar Selección de una fecha en jqueryui" time="7.455"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
@@ -20,21 +16,41 @@ Seleccionar una fecha valida(automatizar-selección-de-una-fecha-en-jqueryui;sel
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ALEJANDROMONTOYAOSOR\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*, --start-maximized --disable...], extensions: []}}
-Starting ChromeDriver 134.0.6998.165 (fd886e2cb29dd984c13deec032832dee68d8abe3-refs/branch-heads/6998@{#2122}) on port 33571
+Starting ChromeDriver 134.0.6998.165 (fd886e2cb29dd984c13deec032832dee68d8abe3-refs/branch-heads/6998@{#2122}) on port 24369
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 33571.
-abr. 07, 2025 11:03:55 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ChromeDriver was started successfully on port 24369.
+abr. 07, 2025 11:36:51 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-abr. 07, 2025 11:03:55 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+abr. 07, 2025 11:36:51 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.9.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO  - 
-  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
- |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
-   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
-   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
 Seleccionar una fecha valida
------------------------------------------------------------------------------
+----------------------------------------------------------------------
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.165 (resolved driver for Chrome 134)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ALEJANDROMONTOYAOSOR\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*, --start-maximized --disable...], extensions: []}}
+Starting ChromeDriver 134.0.6998.165 (fd886e2cb29dd984c13deec032832dee68d8abe3-refs/branch-heads/6998@{#2122}) on port 2201
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 2201.
+abr. 07, 2025 11:37:00 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+abr. 07, 2025 11:37:00 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.9.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Seleccionar una fecha valida
+----------------------------------------------------------------------
 ]]></system-err>
 </testsuite>
